@@ -1,0 +1,103 @@
+/*////////////////////////////////////////--VIDEO--*/
+#video-block {
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: 100vh;
+  z-index: -1;
+}
+
+video {
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+
+}
+
+.video-overlay {
+  /* background: rgba(255, 255, 255, 0.2); */
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  position: relative;
+  height: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/*////////////////////////////////////////--TITLE--*/
+.maintitle {
+  font-size: 20vw;
+  font-weight: 700;
+  color: #26190d;
+  opacity: .4;
+  margin-top: -15vw;
+}
+
+/*////////////////////////////////////////--SINGLE PAGE--*/
+
+.entry {
+  background-image: url("coffee-back.jpg");
+  background-color: transparent;
+  margin-top: 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.entry-header {
+  margin: 50px 0px;
+  padding: 0px;
+}
+
+.entry-content {
+  /* padding: 80px 50px; */
+  text-align: center;
+}
+
+.content-image {
+  margin-bottom: 0;
+}
+
+.body>div.container-fluid>div.col-md-10.main-content.col-md-offset-1 {}
+
+/*////////////////////////////////////////--HIDDEN ELEMENTS--*/
+.content-date {
+  /* display: none; */
+}
+
+body>div.container-fluid>div.row.site-header>div>div:nth-child(2)>div {
+  /* display: none; */
+}
+
+body>div.container-fluid>div:nth-child(2)>div>div:nth-child(1)>div {
+  /* display: none; */
+}
+
+body>div.container-fluid>div.row.site-header>div>div:nth-child(2)>div>div>div:nth-child(2)>div {
+  /* display: none; */
+}
+
+body>div.container-fluid>div.row.site-header>div>div:nth-child(2) {
+  /* display: none; */
+}
+
+body>div.container-fluid>div:nth-child(2)>div>div>div.col-md-10 {
+  /* text-align: center; */
+}
+
+/*////////////////////////////////////////--FOOTER--*/

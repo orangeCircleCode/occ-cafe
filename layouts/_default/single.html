@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+<div class="col-md-12 entry">
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="entry-header">
+        {{ .Title }}
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="back-img"></div>
+      <div class="entry-content">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+
+  <!-- <hr/> -->
+  <!-- {{ template "_internal/disqus.html" . }} -->
+
+</div>
+
+{{ end }}
