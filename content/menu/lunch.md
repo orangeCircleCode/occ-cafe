@@ -6,6 +6,7 @@ image = "img/portfolio/sandwich.jpg"
 showonlyimage = false
 categories = [ "Lunch" ]
 weight = 4
+description = "We can make any item to order"
 +++
 
 

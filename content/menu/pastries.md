@@ -6,6 +6,7 @@ image = "img/portfolio/pastry1.jpg"
 showonlyimage = false
 categories = [ "Pastries" ]
 weight = 3
+description = "Baked fresh on site daily"
 +++
 
   **Cakes /2.50 / 3.50**

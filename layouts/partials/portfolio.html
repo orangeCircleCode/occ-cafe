@@ -21,9 +21,6 @@
   {{ end }}
     <div class="row">
       <div class="col-md-12">
-        <!-- <div class="row content-date"> -->
-          <!-- {{ .Date.Format "January 02" }} -->
-        <!-- </div> -->
         <div class="row content-title">
           <h2> <a href="{{ .Permalink }} "> {{ .Title }} </a> </h2>
         </div>
@@ -49,15 +46,12 @@
   {{ end }}
     <div class="row">
       <div class="col-md-12">
-        <div class="row content-date">
-          {{ .Date.Format "January 02" }}
-        </div>
         <div class="row content-title">
           <h2> <a href="{{ .Permalink }} "> {{ .Title }} </a> </h2>
         </div>
-        <div class="row content-summary">
-          {{ .Summary }}
-          <a class="more-link" href="{{ .Permalink }} ">MORE</a>
+        <div class="row content-description">
+          {{ .Description }} </br>
+          <a class="more-link" href="{{ .Permalink }} ">Menu</a>
         </div>
       </div>
     </div>

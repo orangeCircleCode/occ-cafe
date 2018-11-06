@@ -1,3 +1,26 @@
+/*////////////////////////////////////////--SITE HEADER--*/
+.site-header {
+  border-top: none;
+  background: transparent;
+  float: right !important;
+}
+
+.site-header a {
+  font-size: 1.2em;
+  opacity: .8;
+  line-height: 3em;
+
+}
+
+.top-navigation {
+  background: transparent;
+}
+@media (max-width: 768px) {
+  .site-header a{
+    font-size: .85em;
+  }
+  }
+
 /*////////////////////////////////////////--VIDEO--*/
 #video-block {
   top: 0px;
@@ -39,45 +62,79 @@ video {
 
 /*////////////////////////////////////////--TITLE--*/
 .maintitle {
+  /* font-family: 'Schoolbell', cursive; */
+  /* font-family: 'Gloria Hallelujah', cursive; */
   font-size: 20vw;
   font-weight: 700;
   color: #26190d;
-  opacity: .4;
-  margin-top: -15vw;
+  opacity: .7;
+  margin-top: -20vw;
 }
 
 /*////////////////////////////////////////--SINGLE PAGE--*/
 
-.entry {
-  background-image: url("coffee-back.jpg");
+.back-img {
+  color: #ffffff;
   background-color: transparent;
+  background-image: url("/chalkboard.jpg") !important;
   margin-top: 0px;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   position: relative;
+  z-index: 100;
+}
+
+body {
+  background-color: transparent;
+  background-image: url("/coffee-back.jpg") !important;
 }
 
 .entry-header {
+  color: #ffffff;
+  font-weight: 500;
   margin: 50px 0px;
   padding: 0px;
+  font-family: 'Annie Use Your Telescope', cursive;
+  opacity: .7;
 }
 
 .entry-content {
-  /* padding: 80px 50px; */
+  font-size: 1.4em;
+  font-weight: 300;
+  padding-bottom: 80px;
   text-align: center;
+  /* font-family: 'Gloria Hallelujah', cursive; */
+  font-family: 'Schoolbell', cursive;
+  /* font-family: 'Annie Use Your Telescope', cursive; */
+  opacity: .7;
+}
+
+.content-title {
+  /* text-transform: none; */
+  /* font-family: 'Shadows Into Light', cursive; */
+  font-family: 'Gloria Hallelujah', cursive;
+  /* font-family: 'Covered By Your Grace', cursive; */
+  /* font-family: 'Schoolbell', cursive; */
+  /* font-family: 'Annie Use Your Telescope', cursive; */
 }
 
 .content-image {
   margin-bottom: 0;
 }
 
-.body>div.container-fluid>div.col-md-10.main-content.col-md-offset-1 {}
-
+.content-description {
+  font-size: 1.5em;
+  margin: 10%;
+}
+.more-link {
+  text-transform: none;
+  font-family: 'Gloria Hallelujah', cursive;
+}
 /*////////////////////////////////////////--HIDDEN ELEMENTS--*/
 .content-date {
-  /* display: none; */
+  display: none;
 }
 
 body>div.container-fluid>div.row.site-header>div>div:nth-child(2)>div {

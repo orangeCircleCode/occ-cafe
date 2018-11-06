@@ -2,36 +2,30 @@
 <html lang="{{ .Site.LanguageCode }}">
 
 <head>{{ partial "head.html" . }}</head>
+
 <body>
-  <div class="container-fluid">
-    <!-- ///////////////////////////////////////////////--HEADER -->
-    <div class="row site-header">
+  <div class="container-fluid"><!-- HEADER CONTAINER-->
+    <div class="row site-header"><!-- HEADER -->
       <div class="col-md-12">
         <div class="row">
-          <!-- ///////////////////////////////////////////////--NAVIGATION -->
-          <div class="col-md-12 top-navigation">
-            {{ partial "topnavigation.html" . }}
-          </div>
-        </div>
-        <div class="col-md-12">
-          <div class="col-md-10 header col-md-offset-1">
-            {{ partial "header.html" . }}
-          </div>
+          <div class="col-md-12 top-navigation"><!--NAVIGATION -->
+            {{ partial "topnav.html" . }}
+          </div><!--NAVIGATION -->
         </div>
       </div>
+    </div><!-- HEADER -->
+  </div><!-- HEADER CONTAINER-->
+
+  <div class="col-md-10 main-content col-md-offset-1"><!--MAIN CONTENT-->
+    {{ block "main" . }}
+    {{ end }}
+  </div><!-- //////////////////--MAIN CONTENT-->
+
+  <div class="row site-footer"><!--FOOTER -->
+    <div class="col-md-12">
+      {{ partial "footer.html" . }}
     </div>
-      <!-- ///////////////////////////////////////////////--MAIN CONTENT-->
-    <div class="col-md-10 main-content col-md-offset-1">
-      {{ block "main" . }}
-      {{ end }}
-    </div>
-  </div>
-    <!-- /////////////////////////////////////////////////////--FOOTER -->
-    <div class="row site-footer">
-      <div class="col-md-12">
-        {{ partial "footer.html" . }}
-      </div>
-    </div>
+  </div><!---FOOTER -->
   {{ partial "scripts.html" . }}
 </body>
 

@@ -3,9 +3,9 @@ draft = true
 image = ""
 showonlyimage = false
 date = "2016-11-05T19:50:47+05:30"
-title = "Menu"
-categories = [ "Menu" ]
-weight = 1
+title = "Full Menu"
+categories = [ "Full Menu" ]
+weight = 5
 +++
   ### COFFEES
   Americano / 2.75/ 3.25

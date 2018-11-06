@@ -19,9 +19,15 @@
 <link href="{{ "css/style.default.css" | absURL }}" rel="stylesheet" id="theme-stylesheet">
 {{ if ne .Site.Params.style "default" }}
 <link href="{{ (printf "css/style.%s.css" .Site.Params.style) | absURL }}" rel="stylesheet" id="theme-stylesheet">
+
+
+
 {{ end }}
 
 <!-- Custom stylesheet - for your changes -->
+<!-- FONTS -->
+<link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Covered+By+Your+Grace|Gloria+Hallelujah|Schoolbell" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Gruppo" rel="stylesheet">
 <link href="{{ "css/custom.css" | absURL }}" rel="stylesheet">
 <link rel="shortcut icon" href="{{ "img/favicon.png" | absURL }}">
 {{ if .RSSLink }}
