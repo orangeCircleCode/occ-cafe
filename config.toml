@@ -1,4 +1,4 @@
-baseurl = "localhost:1313"
+baseurl = "https://occ-cafe.netlify.com/"
 title = "Roasted"
 theme = "hugo-tracks-theme"
 languageCode = "en-us"
