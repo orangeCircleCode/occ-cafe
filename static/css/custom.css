@@ -4,23 +4,14 @@
   background: transparent;
   float: right !important;
 }
-
 .site-header a {
   font-size: 1.2em;
   opacity: .8;
   line-height: 3em;
-
 }
-
 .top-navigation {
   background: transparent;
 }
-@media (max-width: 768px) {
-  .site-header a{
-    font-size: .85em;
-  }
-  }
-
 /*////////////////////////////////////////--VIDEO--*/
 #video-block {
   top: 0px;
@@ -33,7 +24,6 @@
   height: 100vh;
   z-index: -1;
 }
-
 video {
   z-index: -1;
   background-size: cover;
@@ -43,11 +33,8 @@ video {
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-
 }
-
 .video-overlay {
-  /* background: rgba(255, 255, 255, 0.2); */
   top: 0px;
   bottom: 0px;
   left: 0px;
@@ -59,11 +46,8 @@ video {
   justify-content: center;
   align-items: center;
 }
-
 /*////////////////////////////////////////--TITLE--*/
 .maintitle {
-  /* font-family: 'Schoolbell', cursive; */
-  /* font-family: 'Gloria Hallelujah', cursive; */
   font-size: 20vw;
   font-weight: 700;
   color: #26190d;
@@ -83,14 +67,14 @@ video {
   background-attachment: fixed;
   background-size: cover;
   position: relative;
-  z-index: 100;
+	z-index: 100;
+	width: 90%;
+	margin: auto;
 }
-
 body {
   background-color: transparent;
   background-image: url("/coffee-back.jpg") !important;
 }
-
 .entry-header {
   color: #ffffff;
   font-weight: 500;
@@ -99,62 +83,33 @@ body {
   font-family: 'Annie Use Your Telescope', cursive;
   opacity: .7;
 }
-
 .entry-content {
-  font-size: 1.4em;
+  /* font-size: 1.4em; */
   font-weight: 300;
   padding-bottom: 80px;
   text-align: center;
-  /* font-family: 'Gloria Hallelujah', cursive; */
   font-family: 'Schoolbell', cursive;
-  /* font-family: 'Annie Use Your Telescope', cursive; */
   opacity: .7;
 }
-
 .content-title {
-  /* text-transform: none; */
-  /* font-family: 'Shadows Into Light', cursive; */
   font-family: 'Gloria Hallelujah', cursive;
-  /* font-family: 'Covered By Your Grace', cursive; */
-  /* font-family: 'Schoolbell', cursive; */
-  /* font-family: 'Annie Use Your Telescope', cursive; */
 }
-
 .content-image {
   margin-bottom: 0;
 }
-
+.content-excerpt {
+  font-family: 'Schoolbell', cursive;
+}
 .content-description {
   font-size: 1.5em;
   margin: 10%;
 }
 .more-link {
-  text-transform: none;
-  font-family: 'Gloria Hallelujah', cursive;
+  /* text-transform: none; */
+  font-family: 'Schoolbell', cursive;
 }
 /*////////////////////////////////////////--HIDDEN ELEMENTS--*/
 .content-date {
   display: none;
 }
-
-body>div.container-fluid>div.row.site-header>div>div:nth-child(2)>div {
-  /* display: none; */
-}
-
-body>div.container-fluid>div:nth-child(2)>div>div:nth-child(1)>div {
-  /* display: none; */
-}
-
-body>div.container-fluid>div.row.site-header>div>div:nth-child(2)>div>div>div:nth-child(2)>div {
-  /* display: none; */
-}
-
-body>div.container-fluid>div.row.site-header>div>div:nth-child(2) {
-  /* display: none; */
-}
-
-body>div.container-fluid>div:nth-child(2)>div>div>div.col-md-10 {
-  /* text-align: center; */
-}
-
 /*////////////////////////////////////////--FOOTER--*/
