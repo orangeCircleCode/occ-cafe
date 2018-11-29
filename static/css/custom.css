@@ -5,13 +5,17 @@
 .site-header {
   border-top: none;
   background: transparent;
-  float: right !important;
+	float: none !important;
+	padding-top: 1em;
+	padding-bottom: 0em;
+	text-align: center;
 }
 .site-header a {
   font-size: 1.2em;
   opacity: .8;
 	line-height: 3em;
-	margin-right: 3em;
+	margin:0em 3em;
+
 }
 .top-navigation {
   background: transparent;
@@ -36,32 +40,34 @@ a:focus {
 video {
   z-index: -1;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   position: fixed;
   right: 0;
   bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+  min-width: 100vw;
+  min-height: 100vh;
 }
 .video-overlay {
   top: 0px;
   bottom: 0px;
   left: 0px;
-  right: 0px;
-  position: relative;
-  height: 50vw;
+	right: 0px;
+	position: relative;
+	width: 100%;
+	height: 85vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+	align-items: center;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.5);
+	margin: 20px 0px;
 }
 /*////////////////////////////////////////--TITLE--*/
 .maintitle {
-  font-size: 20vw;
-  font-weight: 700;
-  color: #26190d;
-  opacity: .7;
-  margin-top: -20vw;
+  font-size: 12vw;
+  font-weight: 60
+	opacity: .5;
 }
 
 /*////////////////////////////////////////--SINGLE PAGE--*/
@@ -70,7 +76,7 @@ video {
 .back-img {
   color: #ffffff;
   background-color: transparent;
-  background-image: url("/chalkboard.jpg") !important;
+  background-image: url("/chalkboard.webp") !important;
   margin-top: 0px;
   background-position: center;
   background-repeat: no-repeat;
@@ -78,50 +84,57 @@ video {
   background-size: cover;
   position: relative;
 	z-index: 100;
-	width: 100%;
+	width: 60vw;
 	margin: auto;
-	opacity: .95;
+	float: none;
 }
 body {
   background-color: transparent;
-  background-image: url("/coffee-back.jpg") !important;
+	background-image: url("/coffee-back.webp") !important;
+	background-size: cover;
+	background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .entry-header {
   color: #ffffff;
   font-weight: 500;
   margin: 50px 0px;
   padding: 0px;
-  font-family: 'Annie Use Your Telescope', cursive;
-  opacity: .7;
+	opacity: .7;
+	float: none;
+	font-family: 'Fredericka the Great', cursive;
+	letter-spacing: 3px;
 }
 .entry-content {
-  /* font-size: 1.4em; */
   font-weight: 300;
   padding-bottom: 80px;
   text-align: center;
-	font-family: 'Schoolbell', cursive;
 	letter-spacing: 1px;
-  opacity: .7;
+	opacity: .7;
+	font-family: 'Cabin Sketch', cursive;
 }
-.content-title {
-  font-family: 'Gloria Hallelujah', cursive;
+
+.content-title:after {
+	position: relative;
 }
 .content-image {
   margin-bottom: 0;
 }
-.content-excerpt {
-  font-family: 'Schoolbell', cursive;
-}
+
 .content-description {
   font-size: 1.5em;
-  margin: 10%;
+  /* margin: 10%; */
 }
-.more-link {
-  /* text-transform: none; */
-  font-family: 'Schoolbell', cursive;
+.more-link{
+	font-size: 1em;
+	margin: 30px;
 }
 /*////////////////////////////////////////--HIDDEN ELEMENTS--*/
 .content-date {
   display: none;
 }
 /*////////////////////////////////////////--FOOTER--*/
+.site-footer a{
+	opacity: 1;
+}

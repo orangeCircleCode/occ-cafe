@@ -2,7 +2,7 @@
 date = "2016-11-05T19:44:32+05:30"
 title = "Pastries"
 draft = false
-image = "img/portfolio/pastry1.jpg"
+image = "img/portfolio/pastry.webp"
 showonlyimage = false
 categories = [ "Pastries" ]
 weight = 3
