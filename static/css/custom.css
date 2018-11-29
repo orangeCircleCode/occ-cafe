@@ -1,3 +1,6 @@
+
+
+
 /*////////////////////////////////////////--SITE HEADER--*/
 .site-header {
   border-top: none;
@@ -7,10 +10,16 @@
 .site-header a {
   font-size: 1.2em;
   opacity: .8;
-  line-height: 3em;
+	line-height: 3em;
+	margin-right: 3em;
 }
 .top-navigation {
   background: transparent;
+}
+a:hover,
+a:focus {
+	color: white;
+	opacity: 1;
 }
 /*////////////////////////////////////////--VIDEO--*/
 #video-block {
@@ -57,6 +66,7 @@ video {
 
 /*////////////////////////////////////////--SINGLE PAGE--*/
 
+
 .back-img {
   color: #ffffff;
   background-color: transparent;
@@ -68,8 +78,9 @@ video {
   background-size: cover;
   position: relative;
 	z-index: 100;
-	width: 90%;
+	width: 100%;
 	margin: auto;
+	opacity: .95;
 }
 body {
   background-color: transparent;
@@ -88,7 +99,8 @@ body {
   font-weight: 300;
   padding-bottom: 80px;
   text-align: center;
-  font-family: 'Schoolbell', cursive;
+	font-family: 'Schoolbell', cursive;
+	letter-spacing: 1px;
   opacity: .7;
 }
 .content-title {
