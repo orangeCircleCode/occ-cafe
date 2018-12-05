@@ -2,7 +2,7 @@
 date = "2016-11-05T18:25:22+05:30"
 title = "Cold Drinks"
 draft = false
-image = "img/portfolio/ice-coffee.webp"
+image = "img/portfolio/ice-coffee.pjg"
 showonlyimage = false
 categories = [ "Cold Drinks"]
 weight = 2

@@ -1,6 +1,5 @@
 
 
-
 /*////////////////////////////////////////--SITE HEADER--*/
 .site-header {
   border-top: none;
@@ -72,11 +71,10 @@ video {
 
 /*////////////////////////////////////////--SINGLE PAGE--*/
 
-
 .back-img {
   color: #ffffff;
   background-color: transparent;
-  background-image: url("/chalkboard.webp") !important;
+  background-image: url("/chalkboard.pjg") !important;
   margin-top: 0px;
   background-position: center;
   background-repeat: no-repeat;
@@ -90,7 +88,7 @@ video {
 }
 body {
   background-color: transparent;
-	background-image: url("/coffee-back.webp") !important;
+	background-image: url("/coffee-back.pjg") !important;
 	background-size: cover;
 	background-position: center;
   background-repeat: no-repeat;
