@@ -2,7 +2,7 @@
 date = "2016-11-05T19:41:01+05:30"
 title = "Coffee"
 draft = false
-image = "img/portfolio/coffee3.pjg"
+image = "img/portfolio/coffee3.jpg"
 showonlyimage = false
 categories = [ "Coffee"]
 weight = 1

@@ -74,7 +74,7 @@ video {
 .back-img {
   color: #ffffff;
   background-color: transparent;
-  background-image: url("/chalkboard.pjg") !important;
+  background-image: url("/chalkboard.jpg") !important;
   margin-top: 0px;
   background-position: center;
   background-repeat: no-repeat;
@@ -88,7 +88,7 @@ video {
 }
 body {
   background-color: transparent;
-	background-image: url("/coffee-back.pjg") !important;
+	background-image: url("/coffee-back.jpg") !important;
 	background-size: cover;
 	background-position: center;
   background-repeat: no-repeat;
