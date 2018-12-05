@@ -1,5 +1,5 @@
 baseurl = "https://occ-cafe.netlify.com/"
-title = "The Roastery"
+title = "The Roast"
 theme = "hugo-tracks-theme"
 languageCode = "en-us"
 # Enable Google Analytics by entering your tracking code

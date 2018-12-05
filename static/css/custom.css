@@ -1,113 +1,148 @@
-
+@font-face {
+	font-family: 'MyFonts';
+	src: url ('fonts/coffeebreak.ttf') format('ttf');
+	url ('fonts/espresso.ttf') format('ttf');
+	url ('fonts/getcoffee.ttf') format('ttf');
+	url ('fonts/rain.ttf') format('ttf');
+	url ('fonts/scribble.ttf') format('ttf');
+}
 
 /*////////////////////////////////////////--SITE HEADER--*/
 .site-header {
-  border-top: none;
-  background: transparent;
+	border: none;
+	border-top: none;
+	background-color: transparent;
 	float: none !important;
 	padding-top: 1em;
 	padding-bottom: 0em;
 	text-align: center;
+	color: rgb(49, 39, 30);
 }
-.site-header a {
-  font-size: 1.2em;
-  opacity: .8;
-	line-height: 3em;
-	margin:0em 3em;
 
+.site-header a {
+	font-size: 1.2em;
+	line-height: 3em;
+	margin: 0em 3em;
+	opacity: .7;
 }
+
 .top-navigation {
-  background: transparent;
+	background: transparent;
 }
+
 a:hover,
 a:focus {
-	color: white;
+	color: rgb(46, 34, 34);
 	opacity: 1;
 }
+
 /*////////////////////////////////////////--VIDEO--*/
 #video-block {
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  margin: 0;
-  padding: 0;
-  width: auto;
-  height: 100vh;
-  z-index: -1;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	height: 100vh;
+	z-index: -1;
 }
+
 video {
-  z-index: -1;
-  background-size: cover;
-  background-position: bottom;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100vw;
-  min-height: 100vh;
+	z-index: -1;
+	background-size: contain;
+	background-position: top;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100vw;
+	min-height: 100vh;
 }
+
 .video-overlay {
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
 	right: 0px;
 	position: relative;
 	width: 100%;
-	height: 85vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+	/* height: 85vh; */
+	height: 60vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 	align-items: center;
 	text-align: center;
-	background: rgba(0, 0, 0, 0.5);
-	margin: 20px 0px;
+	/* background: rgba(0, 0, 0, 0.6); */
+	background: rgba(255, 255, 255, 0.3);
+	/* margin: 20px 0px; */
 }
+
 /*////////////////////////////////////////--TITLE--*/
 .maintitle {
-  font-size: 12vw;
-  font-weight: 60
-	opacity: .5;
+	font-size: 15vw;
+	font-weight: 600;
+	letter-spacing: .3vw;
+	/* font-family: 'MyFonts', coffeebreak; */
+	/* font-family: 'MyFonts', espresso; */
+	/* font-family: 'Schoolbell'; */
+	/* font-family: 'Gruppo'; */
+	/* font-family: 'Cabin Sketch'; */
+	/* font-family: 'Caveat Brush', cursive; */
+	/* font-family: 'Leckerli One', cursive; */
+	font-family: 'Pacifico', cursive;
+	/* font-family: 'Sedgwick Ave', cursive; */
+	/* font-family: 'Fredericka the Great', cursive; */
+	opacity: .9;
+	/* color:#eee8e8; */
+	/* color: rgb(54, 42, 31); */
+	color: rgb(49, 39, 30);
 }
 
 /*////////////////////////////////////////--SINGLE PAGE--*/
 
 .back-img {
-  color: #ffffff;
-  background-color: transparent;
-  background-image: url("/chalkboard.jpg") !important;
-  margin-top: 0px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  position: relative;
+	color: #ffffff;
+	background-color: transparent;
+	background-image: url("/chalkboard.jpg") !important;
+	margin-top: 0px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	position: relative;
 	z-index: 100;
 	width: 60vw;
 	margin: auto;
 	float: none;
 }
+
 body {
-  background-color: transparent;
+	background-color: transparent;
 	background-image: url("/coffee-back.jpg") !important;
 	background-size: cover;
 	background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
+
 .entry-header {
-  color: #ffffff;
-  font-weight: 500;
-  margin: 50px 0px;
-  padding: 0px;
+	color: #ffffff;
+	font-weight: 500;
+	margin: 50px 0px;
+	padding: 0px;
 	opacity: .7;
 	float: none;
 	font-family: 'Fredericka the Great', cursive;
 	letter-spacing: 3px;
 }
+
 .entry-content {
-  font-weight: 300;
-  padding-bottom: 80px;
-  text-align: center;
+	font-size: 1.2em;
+	font-weight: 300;
+	padding-bottom: 80px;
+	text-align: center;
 	letter-spacing: 1px;
 	opacity: .7;
 	font-family: 'Cabin Sketch', cursive;
@@ -116,23 +151,27 @@ body {
 .content-title:after {
 	position: relative;
 }
+
 .content-image {
-  margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .content-description {
-  font-size: 1.5em;
-  /* margin: 10%; */
+	font-size: 1.5em;
+	/* margin: 10%; */
 }
-.more-link{
+
+.more-link {
 	font-size: 1em;
 	margin: 30px;
 }
+
 /*////////////////////////////////////////--HIDDEN ELEMENTS--*/
 .content-date {
-  display: none;
+	display: none;
 }
+
 /*////////////////////////////////////////--FOOTER--*/
-.site-footer a{
+.site-footer a {
 	opacity: 1;
 }

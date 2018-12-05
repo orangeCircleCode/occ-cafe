@@ -8,7 +8,6 @@
 
 @media only screen and (max-width: 425px) {}
 
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	.main-content {
@@ -22,8 +21,9 @@
 		padding: 0;
 	}
 	.site-header a {
-		margin: 1em;
+		margin: 0em .8em;
 		font-size: .75em;
+		line-height: initial;
 	}
 	.content-title h2 {
 		font-size: 1.4em;
@@ -37,7 +37,8 @@
 	}
 	.entry-content {
 		padding-bottom: 40px;
-	}
+		font-size: 1em;
+		}
 	.site-footer a {
 		font-size: .7em;
 	}
@@ -49,7 +50,9 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 	.site-header a {
-		margin-right: 1em;
+		margin: 0em .8em;
+		font-size: .75em;
+		line-height: initial;
 	}
 
 }
@@ -78,5 +81,10 @@
 @media only screen and (min-width: 1200px) {
 	.main-content {
 		float: none;
+	}
+	.site-header a {
+		margin: 0em .8em;
+		font-size: 1em;
+		line-height: initial;
 	}
 }
