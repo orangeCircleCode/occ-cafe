@@ -1,5 +1,5 @@
 baseurl = "https://occ-cafe.netlify.com/"
-title = "The Roast"
+title = "Beans"
 theme = "hugo-tracks-theme"
 languageCode = "en-us"
 # Enable Google Analytics by entering your tracking code
@@ -9,7 +9,7 @@ googleAnalytics = ""
   style = "default"
   pages = false
   description = "Best Coffee Ever!"
-  copyright = "&copy;2018 Roasted"
+  copyright = "&copy;2018 Beans"
 
 
 [params.sidebar]

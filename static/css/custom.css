@@ -11,23 +11,35 @@
 .site-header {
 	border: none;
 	border-top: none;
-	background-color: transparent;
+	/* background-color: transparent; */
 	float: none !important;
-	padding-top: 1em;
+	/* padding-top: 1em; */
 	padding-bottom: 0em;
 	text-align: center;
-	color: rgb(49, 39, 30);
+	/* color: rgb(49, 39, 30); */
+	/* color:#eee8e8; */
+	/* color: white; */
+	background: rgba(255, 255, 255, 0.3);
+	/* background: rgba(0, 0, 0, 0.3); */
+	color: rgb(54, 42, 31);
 }
 
 .site-header a {
 	font-size: 1.2em;
 	line-height: 3em;
 	margin: 0em 3em;
-	opacity: .7;
+	opacity: 8;
+	/* background: rgba(0, 0, 0, 0.3); */
 }
 
 .top-navigation {
-	background: transparent;
+	padding-top: 1em;
+	/* background: transparent; */
+	position: fixed;
+	width: 100%;
+	/* background: rgba(0, 0, 0, 0.3); */
+	background: rgba(255, 255, 255, 0.3);
+	/* margin-bottom: 30px; */
 }
 
 a:hover,
@@ -44,60 +56,81 @@ a:focus {
 	right: 0px;
 	margin: 0;
 	padding: 0;
-	width: auto;
+	width: 100%;
 	height: 100vh;
 	z-index: -1;
 }
 
 video {
 	z-index: -1;
-	background-size: contain;
-	background-position: top;
+	background-size: cover;
 	position: fixed;
 	right: 0;
 	bottom: 0;
-	min-width: 100vw;
+	/* min-width: 100vw; */
+	/* min-height: 100vh; */
+  top: 0;
+  bottom: 0;
+  min-width: 100%;
 	min-height: 100vh;
-}
-
-.video-overlay {
-	top: 0px;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	position: relative;
-	width: 100%;
-	/* height: 85vh; */
-	height: 60vh;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	/* background: rgba(0, 0, 0, 0.6); */
-	background: rgba(255, 255, 255, 0.3);
+
+}
+
+.video-overlay {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+  min-width: 100%;
+	min-height: 100vh;
+	height: 100%;
+	/* height: 60vh; */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	/* background: rgba(0, 0, 0, 0.1); */
+	/* z-index: 2; */
+	/* background: rgba(255, 255, 255, 0.3); */
 	/* margin: 20px 0px; */
 }
 
 /*////////////////////////////////////////--TITLE--*/
 .maintitle {
-	font-size: 15vw;
-	font-weight: 600;
+	font-size: 17vw;
+	font-weight: 400;
 	letter-spacing: .3vw;
+	padding: .1em .3em;
 	/* font-family: 'MyFonts', coffeebreak; */
 	/* font-family: 'MyFonts', espresso; */
 	/* font-family: 'Schoolbell'; */
 	/* font-family: 'Gruppo'; */
 	/* font-family: 'Cabin Sketch'; */
 	/* font-family: 'Caveat Brush', cursive; */
-	/* font-family: 'Leckerli One', cursive; */
-	font-family: 'Pacifico', cursive;
+	font-family: 'Leckerli One', cursive;
+	/* font-family: 'Pacifico', cursive; */
 	/* font-family: 'Sedgwick Ave', cursive; */
 	/* font-family: 'Fredericka the Great', cursive; */
-	opacity: .9;
+	/* opacity: .9; */
 	/* color:#eee8e8; */
-	/* color: rgb(54, 42, 31); */
-	color: rgb(49, 39, 30);
+	color: rgb(54, 42, 31);
+	/* color: rgb(49, 39, 30); */
+	/* margin-top: 100px; */
+	/* background: rgba(0, 0, 0, 0.5); */
+		background: rgba(255, 255, 255, 0.3);
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
 }
 
 /*////////////////////////////////////////--SINGLE PAGE--*/
@@ -106,7 +139,7 @@ video {
 	color: #ffffff;
 	background-color: transparent;
 	background-image: url("/chalkboard.jpg") !important;
-	margin-top: 0px;
+	margin-top: 30px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -155,7 +188,9 @@ body {
 .content-image {
 	margin-bottom: 0;
 }
-
+.content-excerpt {
+	opacity: 1;
+}
 .content-description {
 	font-size: 1.5em;
 	/* margin: 10%; */
@@ -164,6 +199,9 @@ body {
 .more-link {
 	font-size: 1em;
 	margin: 30px;
+}
+.main-content {
+	margin-top: 60px;
 }
 
 /*////////////////////////////////////////--HIDDEN ELEMENTS--*/
