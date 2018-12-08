@@ -156,15 +156,18 @@ video {
 	float: none;
 }
 
-body {
+.back {
 	background-color: transparent;
 	background-image: url("/coffee-back.jpg") !important;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	min-width: 100%;
+	min-height: 100vh;
+	height: 100%;
 	animation-name: opacity;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-timing-function: ease-in-out;
 }
 
